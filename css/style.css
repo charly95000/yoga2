@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
+h1{
+    font-size:50px;
+    font-family : 'Noto Sans JP';
+    color: #454545
+}
+
+.vitrine h2{
+    font-family : 'Noto Sans JP';
+    color: #454545;
+    font-size:30px
+}
+
+h4{
+    font-size:20px;
+}
+
+p{
+    font-family : 'Roboto';
+    color: #454545
+}
+
+h3{
+    margin-bottom: 5%;
+}
+
+a{
+    color:#454545
+}
+
+h3:after {
+    content: "";
+    display: block;
+    background-color: #454545;
+    height: 3px;
+    margin: 20px auto;
+    width: 70px
+}
+
+@media (min-width: 576px) {
+    .card-columns{
+      column-count: 3 !important;
+    }
+    
+  }
+
+  
+  
+
+.carousel-item{
+    padding-top:17%;
+    padding-bottom:17%;
+    height:100vh;
+    width:100%
+}
+.vitrine{
+    text-align: center;
+    background-image: url(../images/fond-titre.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    
+    
+}
+
+.consultation{
+    background-color: #D2CABF;
+}
+
+.service{
+    background-color:  #ffffff;
+    font-size: 15px;
+}
+
+
+
+h1, h2, h3{
+    text-align : center
+}
+
+.abonnements, .card-header{
+    background-color:#c0bfd2;
+}
+
+.contact{
+    padding-top:8%;
+}
+
+.service,  .consultation, footer, .gallery, .abonnements{
+    
+    padding-top:8%;
+    padding-bottom:8%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+.contact{
+    background-color: #e3e3e3;
+  
+    
+}
+
+.contact p{
+    font-size: 10px
+}
+
+.navbar{
+    background-color: #ffffff;
+}
+
+.navbar img{
+    height:100px
+}
+
+
+.map{
+    padding-right :  0;
+}
