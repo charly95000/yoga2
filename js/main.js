@@ -15,4 +15,8 @@
 			$('.navbar-toggler').addClass("bg-transparent");
 		}
 	});
+
+	$(".nav-link").click(function () {
+		$(".navbar-collapse").collapse("hide");
+	});
 })(window.jQuery);

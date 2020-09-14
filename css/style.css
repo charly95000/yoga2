@@ -43,10 +43,28 @@ h3:after {
 
 @media (min-width: 576px) {
     .card-columns{
+      column-count: 1 !important;
+    }
+    
+  }
+
+  @media (min-width: 768px) {
+    .card-columns{
+      column-count: 2 !important;
+    }
+    
+  }
+
+@media (min-width: 992px) {
+    .card-columns{
       column-count: 3 !important;
     }
     
   }
+
+  
+
+  
 
   
   
@@ -54,14 +72,17 @@ h3:after {
 .carousel-item{
     padding-top:17%;
     padding-bottom:17%;
-    height:100vh;
-    width:100%
-}
-.vitrine{
-    text-align: center;
+    height:90vh;
+    width:100%;
     background-image: url(../images/fond-titre.jpg);
     background-size: cover;
     background-position-y: bottom;
+    background-position-x: right;
+}
+.vitrine{
+    text-align: center;
+    
+    
     
     
 }
@@ -89,7 +110,7 @@ h1, h2, h3{
     padding-top:8%;
 }
 
-.service,  .consultation, footer, .gallery, .abonnements{
+.service,  .consultation, .gallery, .abonnements{
     
     padding-top:8%;
     padding-bottom:8%;
@@ -97,6 +118,9 @@ h1, h2, h3{
     padding-right: 20%;
 }
 
+footer{
+    padding: 4% 0
+}
 
 
 .contact{
@@ -105,9 +129,7 @@ h1, h2, h3{
     
 }
 
-.contact p{
-    font-size: 10px
-}
+
 
 .navbar{
     background-color: #ffffff;
